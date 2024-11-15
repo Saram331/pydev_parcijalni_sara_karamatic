@@ -48,5 +48,10 @@
         "name": "Bright Ideas",
         "email": "info@brightideas.com",
         "vat_id": "90123456789"
+    },
+    {
+        "name": "Marko Markic",
+        "email": "marko.markic@gmail.com",
+        "vat_id": "039829939320"
     }
 ]
