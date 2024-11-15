@@ -28,6 +28,9 @@ def save_data(filename: str, data: list[dict]) -> None:
 
 # TODO: Implementirajte funkciju za kreiranje nove ponude.
 
+
+
+
    
     # Omogućite unos kupca
     # Izračunajte sub_total, tax i total
@@ -158,6 +161,7 @@ def manage_customers(customers: list[dict]) -> None:
 
 
 # TODO: Implementirajte funkciju za prikaz ponuda.
+
 def display_offers(offers: list[dict]) -> None:
     """
     Display all offers, offers for a selected month, or a single offer by ID.
@@ -174,9 +178,9 @@ def display_offers(offers: list[dict]) -> None:
                 print_offer(offer)
 
         elif choice == "2":
-            month = input("Unesite mjesec (brojkom): ")
+            month = input("Unesite mjesec (brojkom - MM): ")
             for offer in offers:
-                if offer['date'].contain(month):
+                if offer['date'][:7] == f"{offer['date'][:4]}-{month}":
                     print_offer(offer)
 
         elif choice == "3":

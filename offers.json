@@ -234,5 +234,27 @@
         "sub_total": 2000.0,
         "tax": 400.0,
         "total": 2400.0
+    },
+    {
+        "offer_number": 9,
+        "customer": {
+            "name": "Green Energy",
+            "email": "info@greenenergy.com",
+            "vat_id": "12345678901"
+        },
+        "date": "2024-11-12",
+        "items": [
+            {
+                "product_name": "Mouse",
+                "product_id": 7,
+                "description": "Wireless, ergonomic design",
+                "quantity": 5,
+                "price": 20.0,
+                "item_total": 100.0
+            }
+        ],
+        "sub_total": 100.0,
+        "tax": 20.0,
+        "total": 120.0
     }
 ]
